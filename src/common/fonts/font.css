@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "rmddk";
+    src: url('rmddk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "lilin-gt";
+    src: url('锐线星球李林哥特体简体.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "wh-gt";
+    src: url('万花哥特体繁.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
