@@ -1,9 +1,9 @@
 <template>
 <!-- 作为主页的存在 -->
 <div id="home">
-<h2>Hello!</h2>
-<div id="hint" title="免责声明">站点部分资源来源网络.</div>
-<el-button id="goto" @click="goto">click me</el-button>
+    <h2>Hello!</h2>
+    <div id="hint" title="免责声明">站点部分资源来源网络.</div>
+    <el-button id="goto" @click="goto">click me</el-button>
 </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
     methods:{
         goto(){
             alert("hello ?");
-            this.$parent.isBill=true;
+            this.$router.push("/bill")
         }
     }
 }
@@ -30,8 +30,8 @@ export default {
     position fixed
     height 264px
     width 264px
-    left: 42%;
-    top: 35%;
+    left 42%;
+    top 35%;
     opacity 0.1
 body
     // height 100%

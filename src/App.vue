@@ -1,23 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld v-if="isBill" msg="Welcome to Your Vue.js App"/>
-    <Home v-else></Home>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Home from './components/Home.vue'
+
 
 export default {
   name: 'app',
   data(){return{
-    isBill:false
-  }},
-  components: {
-    HelloWorld,
-    Home
-  }
+  }}
 }
 </script>
 
