@@ -57,28 +57,13 @@ export default {
     vlist:[
       {
         id:1,
-        code:3,
-        name:"京东白条",
-        money:312.33,
-        status:false,
-        note:"处理包含2期的数据,2期数据不再处理"
-      },
-      {
-        id:2,
-        code:5,
-        name:"蚂蚁花呗",
-        money:312.33,
-        status:true,
-        note:"处理包含2期的数据,2期数据不再处理"
-      },
-      {
-        id:3,
-        code:14,
-        name:"蚂蚁借呗",
-        money:312.33,
-        status:true,
-        note:"处理包含2期的数据,2期数据不再处理"
-      },
+        name:"京东白条",        //条目
+        money:312.33,         //总金额
+        startdate:'2019-03-12', //开始日期
+        stage:12,             //总期数
+        status:false,         //状态
+        note:"处理包含2期的数据,2期数据不再处理",
+      }
     ]
   }},
   props: {

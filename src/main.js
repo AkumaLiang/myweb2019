@@ -10,8 +10,6 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({routes})
 
-window.console.log(routes);
-
 Vue.use(ElementUI)
 
 new Vue({
