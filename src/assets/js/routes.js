@@ -3,9 +3,10 @@ import Home from '@/components/Home.vue'
 import InputBill from '@/components/InputBill.vue'
 import Editor from '@/components/Editor.vue'
 import Table from '@/components/Table.vue'
+import IceBlackTea from '@/components/IceBlackTea.vue'
 export const routes = [
     // 主页
-    {path:'/',component: InputBill},
+    {path:'/',component: IceBlackTea},
     {path:'/home',component: Home},
     // 账单
     {path:'/bill',component: Bill},
@@ -15,4 +16,9 @@ export const routes = [
     {path:'/editor',component: Editor},
     // 数据中心-账单数据
     {path:'/table',component:Table},
+
+    // IceBlackTea 冰红茶
+    {path:'/IceBlackTea',component:IceBlackTea},
+
+    
 ]
